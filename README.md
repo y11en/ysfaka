@@ -1,5 +1,5 @@
 
-### 2018-6-13 官网全新改版，请访问www.phpke.cn 
+### 2018-8-15站点改版中，请访问临时域名 www.sf.mk 或加入qq群 
 
 
 ### 什么是云尚发卡系统？
@@ -13,7 +13,7 @@
 ### demo地址：[http://fk.phpke.cn](http://fk.phpke.cn)
 
 ### 更多详细内容及配置教程请访问：
-## [程序详情](https://bbs.phpke.cn/?thread-1.htm)
+## [程序详情](https://www.sf.mk/?thread-1.htm)
 
 ### BUG反馈、程序交流 QQ群：568679748
 
