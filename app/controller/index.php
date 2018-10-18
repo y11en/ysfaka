@@ -160,6 +160,10 @@ class index extends Controller
                     case 'alipay':
                         $html.= "<a  href=\"/pay/index?id=".$orderid."&type=alipay&paycode=".$v['code']."\" class=\"am-btn am-btn-warning am-round am-icon-credit-card-alt\">支付宝即时到账</a>";
                         break;
+                    case 'syzf':
+                        $html.= "<a  href=\"/pay/index?id=".$orderid."&type=zfbqr&paycode=".$v['code']."\" class=\"am-btn am-btn-warning am-round am-icon-credit-card-alt\">支付宝</a>";
+                        $html.= "<a  href=\"/pay/index?id=".$orderid."&type=wxqr&paycode=".$v['code']."\" class=\"am-btn am-btn-warning am-round am-icon-credit-card-alt\">微信</a>";
+                        break;
                 }
             }
         }
