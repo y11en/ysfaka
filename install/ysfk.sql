@@ -38,7 +38,7 @@ CREATE TABLE `ys_acp`  (
 -- ----------------------------
 INSERT INTO `ys_acp` VALUES (38, 'zfbf2f', '支付宝当面付', '', '', '', 0);
 INSERT INTO `ys_acp` VALUES (40, 'alipay', '支付宝即时到账', '', '', '', 0);
-INSERT INTO `ys_acp` VALUES (42, 'syzf', '鲨鱼支付[pay.phpke.cn]', '10871', '10871', '08ecb25cd4c41be1d9bdcf77e36cfbf85898a5e5', 1);
+INSERT INTO `ys_acp` VALUES (42, 'syzf', '鲨鱼支付[www.shayupay.com]', '10871', '10871', '08ecb25cd4c41be1d9bdcf77e36cfbf85898a5e5', 1);
 
 -- ----------------------------
 -- Table structure for ys_admin
