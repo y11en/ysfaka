@@ -20,7 +20,7 @@ $data['cardnum'] = 'json';
 $apikey = $payconf['userkey'];// 您的token
 $signStr = md5Sign(createLinkstring(argSort($data)), $apikey);
 $data['sign'] = $signStr;
-$http = new \YS\app\libs\Http('http://shayupay.com/apisubmit', $data);
+$http = new \YS\app\libs\Http('https://shayupay.com/apisubmit', $data);
 $http->toUrl();
 $res = json_decode($http->getResContent(), true);
 if ($res['status'] == 'success') {
